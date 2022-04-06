@@ -6,3 +6,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.blog-card {
+@apply border flex border-gray-100 rounded-3xl overflow-hidden hover:shadow-xl transition duration-100 mb-12
+}
+ .post-title {
+     @apply font-bold text-2xl title py-4 transition duration-200 hover:text-sec 
+ }
